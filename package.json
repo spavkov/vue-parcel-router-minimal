@@ -1,0 +1,27 @@
+{
+  "name": "vue-parcel-router-example",
+  "version": "0.0.1",
+  "description": "Minimum viable Vue app with Parcel Bundler and vue router",
+  "main": "src/bootstrapper.js",
+  "repository": "",
+  "author": "slobodan <spavkov@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --no-minify"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.3.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.10.3",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "pages": "0.0.16",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.1",
+    "vue-router": "^3.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+# OS or Editor folders
+.DS_Store
+.cache
+
+# Node stuff
+node_modules
+
+# Compiled files
+public
+dist
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
