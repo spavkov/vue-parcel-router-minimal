@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Minimum viable Vue app with Parcel Bundler and vue router",
   "main": "src/bootstrapper.js",
-  "repository": "",
+  "repository": "https://github.com/spavkov/vue-parcel-router-minimal.git",
   "author": "slobodan <spavkov@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -19,7 +19,6 @@
     "vue-template-compiler": "^2.5.17"
   },
   "dependencies": {
-    "pages": "0.0.16",
     "vue": "^2.5.17",
     "vue-hot-reload-api": "^2.3.1",
     "vue-router": "^3.0.1"
