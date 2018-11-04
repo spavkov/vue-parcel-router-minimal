@@ -15,7 +15,7 @@ export default
         routes.push({
             path: '/products',
             component:  () => import("/src/pages/productsPage")
-        });
+        })
        
         routes.push({
             path: '*',
